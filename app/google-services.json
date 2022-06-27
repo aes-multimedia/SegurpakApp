@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1090232239984",
+    "firebase_url": "https://gestnet-18212.firebaseio.com",
+    "project_id": "gestnet-18212",
+    "storage_bucket": "gestnet-18212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090232239984:android:a53f1293d955328d",
+        "android_client_info": {
+          "package_name": "com.multimedia.aes.gestnet_spak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090232239984-i9ad0n808n8l24o8vqcefhhmfkhfcub0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.multimedia.aes.gestnet_spak",
+            "certificate_hash": "8da82056e13223c22bff3c4ecaf3d707746b8151"
+          }
+        },
+        {
+          "client_id": "1090232239984-aa1h5g544ek3rvskh07i0ik7qnk7trtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA1VFo4DmgsixG7w1hcHnW1DggC7lQ0lo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090232239984-aa1h5g544ek3rvskh07i0ik7qnk7trtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

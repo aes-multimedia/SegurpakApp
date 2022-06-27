@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.multimedia.aes.gestnet_spak">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar.FullScreen"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.multimedia.aes.gestnet_spak.nucleo.FormularioCrearElemento"></activity>
+        <activity android:name="com.multimedia.aes.gestnet_spak.nucleo.FotosProtocoloAccion" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.Login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <!--<activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.Login"
+            android:screenOrientation="portrait" />-->
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.InfoArticulos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.AnadirDatosAnalisis"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.ListaElemenInstTipo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.FormularioElemento"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.FirmaCliente"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.FirmaTecnico"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.Mapa"
+            android:label="@string/title_activity_mapa" />
+
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.Camara"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.IntervencionesAnteriores"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.Index"
+            android:label="@string/title_activity_index"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.FullScreen" />
+        <activity android:name="com.multimedia.aes.gestnet_spak.nucleo.DialogActivity" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.CierreDia"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.MiFirma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.DocumentosParte"
+            android:label="@string/title_activity_documentos_parte"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.Galeria"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.AnadirDatosMaquina"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.GestionMateriales"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.Presupuestos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.GaleriaV2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.FotosIntervenciones"
+            android:label="@string/title_activity_fotos_intervenciones"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar.FullScreen" />
+        <activity
+            android:name="com.multimedia.aes.gestnet_spak.nucleo.BuscadorPartes"
+            android:screenOrientation="portrait" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.com.vansuita.pickimage.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/picker_provider_paths" />
+        </provider>
+        <service android:name="com.multimedia.aes.gestnet_spak.notification.GcmIntentService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.multimedia.aes.gestnet_spak.servicios.ServicioLocalizacion"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.multimedia.aes.gestnet_spak.servicios.ServicioArticulos"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+</manifest>

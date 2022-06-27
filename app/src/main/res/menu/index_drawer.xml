@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menuCompleto"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/averiasFecha"
+            android:icon="@drawable/ic_averias"
+            android:title="@string/averias_por_fecha" />
+        <item
+                android:id="@+id/averias"
+                android:icon="@drawable/ic_averias"
+                android:title="@string/averias" />
+        <item
+            android:id="@+id/cierre_dia"
+            android:icon="@drawable/ic_cierre_dia"
+            android:title="@string/cierre_dia" />
+        <item
+                android:id="@+id/mi_firma"
+                android:icon="@drawable/ic_border_color_black_24dp"
+                android:title="@string/mi_firma" />
+            <item
+                android:id="@+id/aviso_guardia"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="@string/aviso_guardia" />
+
+         <item
+             android:id="@+id/cambiar_fecha"
+             android:icon="@drawable/ic_fecha"
+             android:title="@string/cambiar_fecha" />
+
+       <item
+         android:id="@+id/buscar_articulos"
+         android:icon="@drawable/ic_search_black_24dp"
+         android:title="@string/buscar_articulos" />
+       <item
+         android:id="@+id/cierres_pendientes"
+         android:icon="@drawable/ic_storage_black_24dp"
+         android:title="@string/cierres_pendientes" />
+   <item
+       android:id="@+id/actualizarPartes"
+       android:icon="@drawable/ic_action_name"
+       android:title="@string/actualizarPartes" />
+       <!--
+       <item
+         android:id="@+id/actualizar_stock"
+         android:icon="@drawable/quantum_ic_replay_30_white_36"
+         android:title="@string/actualizar_stock" />
+       -->
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/cerrar_sesion"
+                android:icon="@drawable/ic_cerrar_sesion"
+                android:title="@string/cerrar_sesion" />
+        </menu>
+    </item>
+
+</menu>

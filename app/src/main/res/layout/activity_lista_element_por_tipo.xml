@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context="com.multimedia.aes.gestnet_spak.nucleo.ListaElemenInstTipo">
+
+    <TextView
+        android:id="@+id/tw_tipoElemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E6E3E3"
+        android:padding="10sp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnNuevoElementoTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/botones"
+        android:text="@string/nuevo_elemInst" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/filtroElemFinalizado" />
+
+    <Spinner
+        android:id="@+id/sp_bFinalizado"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/caldera_spiners"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/editTextBusqueda"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_texts_naranja"
+        android:hint="@string/FiltrarElementos"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp" />
+
+    <ListView
+        android:id="@+id/lvElemInstTipo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

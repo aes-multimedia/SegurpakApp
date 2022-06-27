@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtCliente" type="id" />
+    <item name="btn_cancelar" type="id"/>
+    <item name="btn_añadir" type="id"/>
+    <item name="btnVerDocumentosModelo" type="id"/>
+    <item name="txtTotalGastosTransporte" type="id" />
+    <item name="etMatricula" type="id" />
+    <item name="etKmFinal" type="id" />
+    <item name="etKmInicio" type="id" />
+    <item name="etLitrosCombustible" type="id" />
+    <item name="etCombustible" type="id" />
+    <item name="etParking" type="id" />
+    <item name="textView15" type="id" />
+    <item name="btnHoraInicio" type="id" />
+    <item name="btnHoraFin" type="id" />
+    <item name="btnFechaCierre" type="id" />
+    <item name="btnHorasComida" type="id" />
+    <item name="txtTotalHoras" type="id" />
+    <item name="etDietas" type="id" />
+    <item name="etMaterial" type="id" />
+    <item name="etEntregado" type="id" />
+    <item name="txtTotalGastos" type="id" />
+    <item name="btnHorasExtra" type="id" />
+    <item name="btnHoraGuardia" type="id" />
+    <item name="cbFestivo" type="id" />
+    <item name="btnEnviarCierreDia" type="id" />
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="PrivateResource">Gestnet Segurpak</string>
+    <string name="cod_cliente">Codigo del Cliente</string>
+    <string name="enviar">Enviar</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_index">Gestnet Segurpak</string>
+    <string name="cambiar_fecha">Cambiar Fecha</string>
+    <string name="cierres_pendientes">Enviar cierres pendientes</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="almacen">Almacén</string>
+    <string name="documentos">Documentos</string>
+    <string name="averias">Bolsa de Avisos</string>
+    <string name="fecha_llamada">Fecha visita: </string>
+    <string name="contrato">Num. Contrato: </string>
+    <string name="venta">Venta: </string>
+    <string name="tipo_urgencia">Tipo urgencia: </string>
+    <string name="contador_averias">Num. averías: </string>
+    <string name="num_orden_iberdrola">Num. orden: </string>
+    <string name="telefonos">Teléfonos: </string>
+    <string name="telefono_1">Teléfono 1</string>
+    <string name="telefono_2">Teléfono 2</string>
+    <string name="telefono_3">Teléfono 3</string>
+    <string name="telefono_4">Teléfono 4</string>
+    <string name="otros_telefonos">Otros teléfonos</string>
+    <string name="confirmar_telefono">ACTUALIZAR DATOS DEL USUARIO</string>
+    <string name="observaciones">Obs. Visita Fallida: </string>
+    <string name="buscando_bluetooth">Buscando Dispositivos Bluetooth</string>
+    <string name="err_durante_impr">Se ha producido un error durante la impresión.</string>
+    <string name="err_crear_material">Es necesario rellenar todos los campos.</string>
+    <string name="crear_material">Articulo Manual</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="conectando">Conectando</string>
+    <string name="visita_fallida">Visita Fallida</string>
+    <string name="iniciar_parte">INICIAR PARTE</string>
+    <string name="datos_parte">Datos del Parte</string>
+    <string name="datos_equipo">Datos del Equipo</string>
+    <string name="datos_cliente">Datos del Cliente</string>
+    <string name="dni_firmante">DNI Firmante</string>
+    <string name="nombre_firmante">Nombre Firmante</string>
+    <string name="nombre_titular">Nombre Titular</string>
+    <string name="dni_titular">DNI Titular</string>
+    <string name="no_firma_titular">No firma titular</string>
+    <string name="añadir_analisis">Añadir Analisis</string>
+    <string name="obtener_datos">Obteniendo datos del servidor</string>
+    <string name="guardar_datos">Guardando datos</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="cierre_dia">Cierre del Día</string>
+    <string name="mis_ajustes">Mis Ajustes</string>
+    <string name="num_parte">Num. Parte: </string>
+    <string name="creado_por">Creado Por:</string>
+    <string name="maquina">Máquina:</string>
+    <string name="tipo_intervencion">Tipo Intervención:</string>
+    <string name="situacion_equipo">Situación del Equipo:</string>
+    <string name="otros_sintomas">Otros síntomas:</string>
+    <string name="detalle_averia">Detalle de la Avería:</string>
+    <string name="sintomas">síntomas:</string>
+    <string name="direccion_titular">Direccion titular</string>
+    <string name="direccion">direccion:</string>
+    <string name="txt_duracion">Duración:</string>
+    <string name="añadir_duracion">añadir tiempo</string>
+    <string name="plus">+</string>
+    <string name="mano_obra">Mano de obra:</string>
+    <string name="forma_pago">Forma de pago:</string>
+    <string name="disposicion_servicio">Disposicion de servicio:</string>
+    <string name="puesta_marcha">Puesta en marcha:</string>
+    <string name="servicio_urgencia">Servicio Urgencia:</string>
+    <string name="Kms">Kms.:</string>
+    <string name="A">A</string>
+    <string name="operacion_efectuada">Operacion efectuada</string>
+    <string name="Otros">Otros</string>
+    <string name="con_valor">con valor</string>
+    <string name="añdir">Añadir</string>
+    <string name="item_1">Item 1</string>
+    <string name="item_2">Item 2</string>
+    <string name="item_3">Item 3</string>
+    <string name="seleccion_protocolo">Seleccione un protocolo:</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="txt_buscar">Buscar</string>
+    <string name="etNombreMaterial" >M</string>
+    <string name="etPrecioMaterial" >P</string>
+    <string name="cancelar">cancelar</string>
+    <string name="action_settings">Settings</string>
+    <string name="borrar_medicion">borrar medicion</string>
+    <string name="conectando_testo">Conectando con el analizador</string>
+    <string name="obteniendo_datos_testo">Obteniendo valores del analisis</string>
+    <string name="title_connected_to">Conectado a:</string>
+    <string name="title_connecting">conectando…</string>
+    <string name="title_not_connected">Desconectado</string>
+    <string name="crear">Crear</string>
+    <string name="crear_nuevo_articulo">Introducir informacion del articulo</string>
+    <string name="crear_articulo">introducir informacion del articulo</string>
+    <string name="preeu_materiales">Materiales</string>
+    <string name="sub_total">SUB TOTAL</string>
+    <string name="mano_obra_horas">Total mano de obra</string>
+    <string name="iva_aplicado_21">Iva 21%</string>
+    <string name="total">Total</string>
+    <string name="acepto_presupuesto">Acepto presupuesto</string>
+    <string name="si">si</string>
+    <string name="no">no</string>
+    <string name="hora_entrada">Hora de entrada:</string>
+    <string name="actualizar_stock">Actualizar Stock tecnico</string>
+    <string name="imprimir_finalizados">Solo se pueden imprimir partes finalizados</string>
+    <string name="tipo_contrato">Tipo de Contrato:</string>
+    <string name="intervenciones_anteriores">Mostrar intervenciones anteriores</string>
+    <string name="ver_documentacion_del_parte">Ver documentación del parte</string>
+    <string name="title_activity_documentos_parte">DocumentosParte</string>
+    <string name="Archivos">Archivos</string>
+    <string name="imagenes">Imágenes</string>
+    <string name="nueva_maquina">Nueva Maquina</string>
+    <string name="aviso_guardia">Aviso de guardia</string>
+    <string name="mi_firma">Guardar mi firma</string>
+    <string name="pedir_pieza">Pedir pieza</string>
+    <string name="utilizar_pieza">Utilizar pieza</string>
+    <string name="pieza_en_garantia">Pieza en garantia</string>
+    <string name="crear_presupuestos">Creación de presupuestos</string>
+    <string name="solicitud_presupuesto">Solicitud de Presupuesto</string>
+    <string name="datos_presupuesto">Datos del Presupuesto</string>
+    <string name="nuevo_presupuesto">Nuevo presupuesto</string>
+    <string name="pick_image_intent_text">Seleccionar imagen</string>
+    <string name="cargando_presupuesto">Esto puede tardar unos segundos debido a las imagenes y la velocidad de conexion.</string>
+    <string name="titulo_pd_presupuestos">Enviado presupuesto</string>
+    <string name="fecha_visita">fecha:</string>
+    <string name="tecnico">Tecnico:</string>
+    <string name="title_activity_fotos_intervenciones">FotosIntervenciones</string>
+    <string name="err_impr">Se ha producido un error al conectar con la impresora.</string>
+    <string name="imp_ok">Impresion correcta</string>
+    <string name="correo_electrónico">Correo electrónico</string>
+    <string name="texto_largo_prueba">esto es un texto muy largo para hacer pruebas</string>
+    <string name="enviar_por_correo">Enviar ticket por correo</string>
+    <string name="estado_parte">Estado del parte</string>
+    <string name="buscar_partes">Buscar partes</string>
+    <string name="buscar_articulos">Buscar articulos</string>
+    <string name="Tipos_OServicio">Tipos Ordenes de Servicio</string>
+    <string name="nuevo_elemInst">Crear Elemento</string>
+    <string name="ActElementoInst">Actualizar Elemento</string>
+    <string name="tiposElementos">Tipos de Elementos</string>
+    <string name="crear_elemento">Crear Elemento</string>
+    <string name="seleccione_tipo_de_elemento_a_crear">Seleccione tipo de elemento a crear</string>
+    <string name="filtroElemFinalizado">Filtrar por finalizado:</string>
+    <string name="Filtrar" >Filtrar</string>
+    <string name="FiltrarElementos">Filtrar Elementos</string>
+    <string name="reiniciarParte">Reiniciar Parte</string>
+    <string name="pausarParte">Pausar Parte</string>
+    <string name="iniciarParte">Iniciar Parte</string>
+    <string name="clienteAusente">Cliente ausente</string>
+    <string name="resumeParte">Reiniciar Parte</string>
+    <string name="IniciarParte">Iniciar Aviso</string>
+    <string name="actualizarPartes">Actualizar Partes</string>
+    <string name="deactElm">Desactivar Elemento</string>
+    <string name="desactivar_elemento">Desactivar Elemento</string>
+    <string-array name="forma_pago">
+        <item>--Seleccione forma de pago--</item>
+        <item>Contado</item>
+        <item>Financiación</item>
+        <item>Tarjeta</item>
+        <item>Impagado</item>
+        <item>Transferencia</item>
+    </string-array>
+    <string-array name="disposicion_servicio">
+        <item>--Seleccione disposicion--</item>
+        <item>Zona centrica A</item>
+        <item>Resto de provincia</item>
+        <item>Tarjeta</item>
+        <item>Impagado</item>
+        <item>Transferencia</item>
+    </string-array>
+</resources>
+
